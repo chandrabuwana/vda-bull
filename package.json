@@ -1,0 +1,38 @@
+{
+  "name": "vda-server",
+  "version": "1.0.0",
+  "description": "Backend Server VDA",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandrabuwana/vda-server.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Muhammad Chandra Buwana, Galih Indraparahastha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandrabuwana/vda-server/issues"
+  },
+  "homepage": "https://github.com/chandrabuwana/vda-server#readme",
+  "dependencies": {
+    "@google-cloud/compute": "^0.11.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "bull": "^3.12.1",
+    "bull-ui": "^1.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "kue": "^0.11.6",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.11",
+    "nodemon": "^1.18.10"
+  }
+}
